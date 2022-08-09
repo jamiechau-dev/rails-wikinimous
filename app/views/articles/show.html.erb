@@ -1,0 +1,5 @@
+<h1><%= @articles.title %></h1>
+<p><%= @articles.content %></p>
+
+<%= link_to 'Edit this TaskArticle', edit_article_path(@article) %>
+<%= link_to 'Go Back', articles_path(@task) %>
